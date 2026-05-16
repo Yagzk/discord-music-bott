@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(node -e \"const p = require\\('play-dl'\\); console.log\\(require\\('./node_modules/play-dl/package.json'\\).version\\)\")",
+      "Bash(yt-dlp --version)",
+      "Bash(where yt-dlp *)",
+      "Bash(taskkill /F /IM node.exe)"
+    ]
+  }
+}
