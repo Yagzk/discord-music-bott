@@ -4,3 +4,7 @@ node_modules/
 data/
 .DS_Store
 Thumbs.db
+bot.pid
+*.lnk
+discord-music-bott/
+.claude/
